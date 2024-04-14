@@ -1,5 +1,6 @@
 # coder-54130-proyecto-final
-# julian magdalena opvision@gmail.com
+ 
+ julian magdalena opvision@gmail.com
 
 # comandos
 1. crear proyecto django
@@ -15,3 +16,4 @@
     ```bash
     python3 manage.py startapp "nombre de la app"
     ```
+4. creamos un archivo urls.py en "coder_python/entrega_final/Plataforma/book"
