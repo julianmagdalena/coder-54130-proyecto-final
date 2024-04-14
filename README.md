@@ -4,5 +4,14 @@
 # comandos
 1. crear proyecto django
     ```bash
-    django-admin startprojet Plataforma
+    django-admin startprojet "nombre del proyecto"
+    ```
+
+2. testear servidor
+   ```bash
+    python3 manage.py runserver
+    ```
+3. crear una "application" dentro de mi proyecto
+    ```bash
+    python3 manage.py startapp "nombre de la app"
     ```
