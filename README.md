@@ -16,4 +16,9 @@
     ```bash
     python3 manage.py startapp "nombre de la app"
     ```
-4. creamos un archivo urls.py en "coder_python/entrega_final/Plataforma/book"
+4. creamos un archivo urls.py en <"coder_python/entrega_final/Plataforma/book">
+
+# templetes
+
+1. crear un <templete> y guardarlo en el lugar adecuado
+2. utilizar la funcion <render>

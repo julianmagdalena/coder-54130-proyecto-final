@@ -2,11 +2,9 @@
 from django.contrib import admin
 from django.urls import path
 
-from django.http import HttpResponse
-
-def mi_mista(xx):
-    return HttpResponse("<h1>hola!!! esta es mi vista<h1/>")
+from .views import home_view, list_view
 
 urlpatterns = [
-    path("", mi_mista)
+    path("", home_view),
+    path("lista/", list_view)
 ]
