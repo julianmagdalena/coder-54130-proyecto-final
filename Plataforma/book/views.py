@@ -8,4 +8,12 @@ def home_view(request):
     return HttpResponse("<h1>hola!!! esta es mi vista<h1/>")
 
 def list_view(request):
-    return HttpResponse("<h3>Esta es la lista de juegos<h3/>")
+    contexto_dic = {
+        'games': [
+            "final_fantasy - rpg",
+            "god_of_war - action",
+            "fifa24 - sport"
+        ]
+    }
+
+return render(request, "list.html", contecto_dict)

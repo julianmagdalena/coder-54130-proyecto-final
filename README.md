@@ -22,3 +22,10 @@
 
 1. crear un <templete> y guardarlo en el lugar adecuado
 2. utilizar la funcion <render>
+
+## modelos
+
+despues de agregar o modificar un modelo en 'models.py' tenemos que correr 2 comandos:
+
+1. 'python3 manage.py makemigrations'
+2. 'python3 manage.py migrate'

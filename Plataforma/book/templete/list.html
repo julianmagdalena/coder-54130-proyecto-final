@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html
+<head>
+    <title> Lista de juegos </title>
+</head>
+<body>
+    <h1> Este es el top 3 </h1>
+    <ul>
+        {% for game in games %}
+            <li>{{ game }} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
